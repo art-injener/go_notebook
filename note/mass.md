@@ -139,6 +139,24 @@ func main() {
     fmt.Println(x) // выводит [7 2 3]
 }
 ````
+#### Многомерные массивы
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var twoD [2][3]int
+    for i := 0; i < 2; i++ {
+        for j := 0; j < 3; j++ {
+            twoD[i][j] = i + j
+        }
+     }
+    fmt.Println("2d: ", twoD)
+}
+```
+
 #### Источники
  - https://habr.com/ru/company/otus/blog/465613/
  - https://habr.com/ru/post/597521/

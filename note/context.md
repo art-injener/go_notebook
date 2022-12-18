@@ -1,4 +1,6 @@
+# Context
 
+TODO: общее описание
 
 ### signal.NotifyContext: handling cancelation with Unix signals using context
 
